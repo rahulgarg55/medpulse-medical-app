@@ -6,5 +6,11 @@ export default defineConfig({
   server: {
     port: 3008,
     host: true,
+    allowedHosts: true,
   },
+  preview: {
+    port: 3008,
+    host: true,
+    allowedHosts: true,
+  }
 });

@@ -16,7 +16,7 @@
 
 | Target | URL | Description |
 | :--- | :--- | :--- |
-| **Public Live Application** | [**https://spotted-gulf-bachelor-inns.trycloudflare.com**](#) *(Active Cloudflare Tunnel)* | Full interactive mobile app with device frame toggles (iPhone 16 Pro, Google Pixel 9, Web) |
+| **Public Live Application** | [**https://streaming-helpful-scholarships-affordable.trycloudflare.com**](https://streaming-helpful-scholarships-affordable.trycloudflare.com) | Full interactive mobile app with device frame toggles (iPhone 16 Pro, Google Pixel 9, Web) |
 | **GitHub Repository** | [**github.com/rahulgarg55/medpulse-medical-app**](https://github.com/rahulgarg55/medpulse-medical-app) | Clean production source code, EAS build profiles, Fastify stubs |
 | **Local Host** | `http://localhost:3008` | Local Vite / Expo Web dev server |
 
