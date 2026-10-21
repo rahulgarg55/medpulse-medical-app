@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "MedPulse AI",
+    "slug": "medpulse-medical-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#042f2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.medpulse.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "MedPulse requires camera access to scan and upload physical medical prescriptions.",
+        "NSPhotoLibraryUsageDescription": "MedPulse needs photo library access to attach clinical lab results and doctor prescriptions.",
+        "NSFaceIDUsageDescription": "MedPulse secures patient clinical records with biometric FaceID authentication."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#042f2e"
+      },
+      "package": "com.medpulse.app",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "USE_BIOMETRIC"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3a7f82b4-e2b1-4f1e-8a21-medpulse-ota",
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3a7f82b4-e2b1-4f1e-8a21-medpulse-ota"
+      }
+    }
+  }
+}

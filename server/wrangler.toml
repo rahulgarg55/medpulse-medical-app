@@ -1,0 +1,17 @@
+name = "medpulse-api-gateway"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+ENVIRONMENT = "production"
+ROUTING_TIER = "edge-global"
+
+# Cloudflare R2 bucket for zero-egress encrypted medical prescription images
+[[r2_buckets]]
+binding = "MEDPULSE_RX_STORAGE"
+bucket_name = "medpulse-prescriptions-prod"
+
+# Edge KV for Drug Formulary Caching
+[[kv_namespaces]]
+binding = "DRUG_CATALOG_KV"
+id = "a9482104-medpulse-catalog-kv"
